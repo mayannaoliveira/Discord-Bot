@@ -1,4 +1,4 @@
-![image](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white) ![image](https://img.shields.io/badge/Discord-5865F2.svg?style=for-the-badge&logo=Discord&logoColor=white)
+![discord](https://img.shields.io/badge/Discord_mayannaoliveira-5865F2?style=flat&logo=discord&logoColor=white) ![python](https://img.shields.io/badge/Python-3.12.0-3776AB?style=flat&logo=python&logoColor=white) ![discordpy](https://img.shields.io/badge/discord.py-2.5.2-14354C?style=flat&logo=python&logoColor=white) ![pythondotenv](https://img.shields.io/badge/python–dotenv-1.1.0-14354C?style=flat&logo=python&logoColor=white) 
 
 # Criando um Bot para Discord com Python
 Para criar um bot para Discord usando Python, você precisará seguir estes passos:
@@ -266,7 +266,14 @@ BUILD=
 3. Gerar arquivo requirements.txt pelo terminal: 
 `pip install pipreqs`, depois o comando:`pipreqs .\PASTA-DO-BOT\`
 3.1 Ou somente pelo comando caso der erro e o pipreqs esteja procurando dependências em `.venv`, o diretório do virtualenv.
-`pipreqs --ignore .venv`
-4. Compactar em arquivo .zip todos os arquivos: `.env`, `discloud.config`, `.gitignore`, `main.py` e `requirements.txt`.
+`pipreqs --ignore .venv`. O requeriments.txt:
+
+```txt
+discord.py==2.5.2
+python-dotenv==1.1.0
+
+```
+
+4. Compactar em arquivo .zip todos os arquivos: `discloud.config`, `.gitignore`, `main.py` e `requirements.txt`.
 5. Aguarde o upload do bot e sua iniciação.
 
